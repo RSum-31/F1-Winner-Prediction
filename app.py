@@ -48,7 +48,7 @@ import re
 driver_name = winner[0]
 driver_name = re.sub(r'[^a-zA-Z]', '', driver_name)
 
-base_path = r"C:\Users\medha\Downloads\F1_Project\drivers"
+base_path = "drivers"
 
 # check all files
 files = os.listdir(base_path)
